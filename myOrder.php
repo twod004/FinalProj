@@ -22,17 +22,17 @@
 	<div id="my-order-email">
 		<p> Order Status </p>
 		<form action="" id="my-order-email-form">
-			<input type="email" placeholder="Enter your email address." name="email" id="email">	
-			<input type="image" id="submit" src="images/submit-arrow.png">	
+			<input type="email" placeholder="Enter your email address." name="email" id="email">
+			<input type="image" id="submit" src="images/submit-arrow.png">
 		</form>
-	</div>	
+	</div>
 	<!--Order status when valid email-->
 	<div id="my-order-info" hidden>
 		<div class="col" id="order-summary">
 			<h2>Order Summary</h2>
 			<table border="0">
 					<tr id="first-row">
-						<th class="left" colspan="2">Address</th>	
+						<th class="left" colspan="2">Address</th>
 					</tr>
 					<tr class="item-detail-row">
 						<td class="left">Bukit Batok Ave 5 Blk 999 #02-02</td>
@@ -80,10 +80,10 @@
 			<p>Preparing</p>
 		</div>
 		<div style="clear:both"></div>
-	</div>	
+	</div>
   </div>
-  
-  
+
+
 </div>
 <div id="footer">
     <small><i>Copyright &copy 2017 Food Fighters</i></small>

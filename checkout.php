@@ -20,7 +20,7 @@
   </div>
   <div id="content">
 		<div id="checkout-info">
-			<div class="col" id="customer-details">	
+			<div class="col" id="customer-details">
 				<h2>Customer Details</h2>
 				<div class="customer-details-row">
 					<div class="inline-input">
@@ -123,7 +123,7 @@
 				</div>
 			</div>
 			<div style="clear:both"></div>
-		</div>	
+		</div>
   </div>
 </div>
 <div id="footer">

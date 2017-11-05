@@ -65,7 +65,7 @@
 					 <th class="left">Estimated Delivery Time</th>
 					 <th id="delivery-time">3:20 PM</th>
 					</tr>
-					
+
 				</table>
 	</div>
 	<div style="clear:both"></div>
@@ -73,8 +73,8 @@
 		<div id="print"><button >Print</button></div>
 		<div id="return"><a href="home.html">Return</a></div>
 	</div>
-			
-</div>		
+
+</div>
 </div>
 <div id="footer">
     <small><i>Copyright &copy 2017 Food Fighters</i></small>
