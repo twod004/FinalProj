@@ -1,5 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<?php
+
+
+session_start();
+$_SESSION['orderitem']= $POST_['order-item'];
+$_SESSION['orderqty'] = $POST_['order-qty'];
+$_SESSION['orderprice'] = $POST_['order-price'];
+print_r($_SESSION);
+
+?>
+
+<html>
 
 <head>
   <title>Food Fighters</title>
@@ -19,6 +30,7 @@
     <a href="contactUs.html">Contact Us</a>
   </div>
   <div id="content">
+    <form>
 		<div id="checkout-info">
 			<div class="col" id="customer-details">
 				<h2>Customer Details</h2>
@@ -87,14 +99,13 @@
 						<th class="left">Qty Item</th>
 						<th class="right">Total</th>
 					</tr>
-					<tr>
-						<td class="left">McSpicy</td>
-						<td class="right">9.90</td>
-					</tr>
-					<tr>
-						<td class="left">Big Mac</td>
-						<td class="right">3.90</td>
-					</tr>
+
+          <tr>
+            <td>
+            <?php echo $POST_['order-item'][0];
+            ?>
+            </td>
+      </tr>
 					<tr class="blank-row">
 					</tr>
 					<tr>
@@ -117,13 +128,14 @@
 					</tr>
 				</table>
 				<div id="place-order">
-					<a href="placeorder.html">
+					<a href="placeorder.php">
 						Place Order
 					</a>
 				</div>
 			</div>
 			<div style="clear:both"></div>
 		</div>
+  </form>
   </div>
 </div>
 <div id="footer">
@@ -131,6 +143,4 @@
 </div>
 
 </body>
-</html>
-
 </html>

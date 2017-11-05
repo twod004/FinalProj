@@ -169,7 +169,7 @@
 </div>
 	<div id="cart" class="col">
 		<h2>My Order</h2>
-  <form>
+  <form action ="checkout.php" method="post" id = "form1">
 		<table border="0" id = "order-cart">
 			<tr>
 				<th class="left">Item</th>
@@ -208,12 +208,16 @@
 				<th class="right"><input type = "text" size = "2" value = "0" id = "order-total"></th>
 			</tr>
 		</table>
-  </form>
+
 		<div id="submit-order">
-			<a href="checkout.html">
+			<!-- <a href="checkout.html">
 				CheckOut
-			</a>
+			</a> -->
+      <button type = "submit" form = "form1" value = "submit">
+        Checkout
+      </button>
 		</div>
+  </form>
 	</div>
   </div>
   <div style="clear:both"></div>
